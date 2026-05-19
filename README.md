@@ -120,7 +120,7 @@ churn-prediction-xgboost/
 
 ---
 
-## Production Outcomes (eMids original)
+## Production Outcomes
 
 - **~85%** recall on the top-decile high-risk cohort
 - **~10%** quarterly churn reduction (validated against control cohort)
