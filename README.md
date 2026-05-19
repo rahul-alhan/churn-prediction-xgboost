@@ -1,8 +1,8 @@
 # Churn Prediction — XGBoost + SHAP + Drift-Triggered Retraining
 
-Production-grade customer churn prediction with **XGBoost**, **SHAP-based explainability**, and a **drift-detection → retraining trigger** loop. Designed for healthcare-membership data (the original domain at eMids), but the pattern transfers to any subscription/retention business.
+Production-grade customer churn prediction with **XGBoost**, **SHAP-based explainability**, and a **drift-detection → retraining trigger** loop. Designed for healthcare-membership data (the original production domain), but the pattern transfers to any subscription/retention business.
 
-> Mirrors the production model I built at eMids Technologies (2022) — ~85% recall on high-risk cohorts, contributed to ~10% quarterly churn reduction.
+> Mirrors a production model I built in a prior role (2022) — ~85% recall on high-risk cohorts, contributed to ~10% quarterly churn reduction.
 
 ---
 
@@ -120,7 +120,7 @@ churn-prediction-xgboost/
 
 ---
 
-## Production Outcomes
+## Production Outcomes (original deployment)
 
 - **~85%** recall on the top-decile high-risk cohort
 - **~10%** quarterly churn reduction (validated against control cohort)
