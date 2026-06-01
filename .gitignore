@@ -6,4 +6,5 @@ data/
 artifacts/
 reports/
 .pytest_cache/
+.pytest_tmp/
 *.egg-info/

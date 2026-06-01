@@ -128,6 +128,19 @@ churn-prediction-xgboost/
 
 ---
 
+## Running Tests
+
+Install dev dependencies (includes runtime deps + `pytest`) and run the suite:
+
+```bash
+pip install -r requirements-dev.txt
+python -m pytest -q
+```
+
+Pytest config lives in `pyproject.toml` (`[tool.pytest.ini_options]`): `testpaths = ["tests"]`, `pythonpath = ["."]` so imports resolve from the repo root, and temp artifacts go to `.pytest_tmp/` (gitignored).
+
+---
+
 ## License
 
 MIT
